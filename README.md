@@ -10,5 +10,5 @@ JAVA 개발자 과정 프론트앤드 리포지토리
     
     1일차 학습내용
     ![멀티미디어](https://raw.githubusercontent.com/seong-ju/basic-html-2023/main/DAY01/Image/day01.png)
-   <img src = " https://raw.githubusercontent.com/seong-ju/basic-html-2023/main/DAY01/Image/day01.png"  width="300">
+   <img src = "https://raw.githubusercontent.com/seong-ju/basic-html-2023/main/DAY01/Image/day01.png"  width="300">
     
