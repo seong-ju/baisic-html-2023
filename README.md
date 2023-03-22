@@ -9,3 +9,10 @@ JAVA 개발자 과정 프론트앤드 리포지토리
     -HTML 5 기본태그
 <!--![멀티미디어](https://raw.githubusercontent.com/seong-ju/basic-html-2023/main/DAY01/Image/day01.png)-->
 <img src ="https://raw.githubusercontent.com/seong-ju/basic-html-2023/main/DAY01/Image/day01.png" width ="300">
+
+##2일차
+-HTML 5학습
+    -HTML 5 입력태그
+    -CSS 3 기본
+    -CSS 3 고급 
+
