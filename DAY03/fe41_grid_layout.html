@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #wrap{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 1fr 2fr;
+            row-gap: 10px;
+            column-gap: 20px;
+            /* grid-template-rows: 100px 100px; */
+        }
+        .item{
+            padding: 10px ;
+            background-color: #eeeeee;
+
+        }
+        .item:nth-child(2n+1){
+            background-color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+    <div id ="wrap">
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio debitis incidunt eaque. Placeat delectus soluta doloribus dolor officiis asperiores? Illo voluptatem deserunt magni ducimus neque. Inventore quod praesentium vel.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio debitis incidunt eaque. Placeat delectus soluta doloribus dolor officiis asperiores? Illo voluptatem deserunt magni ducimus neque. Inventore quod praesentium vel.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio debitis incidunt eaque. Placeat delectus soluta doloribus dolor officiis asperiores? Illo voluptatem deserunt magni ducimus neque. Inventore quod praesentium vel.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio debitis incidunt eaque. Placeat delectus soluta doloribus dolor officiis asperiores? Illo voluptatem deserunt magni ducimus neque. Inventore quod praesentium vel.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio debitis incidunt eaque. Placeat delectus soluta doloribus dolor officiis asperiores? Illo voluptatem deserunt magni ducimus neque. Inventore quod praesentium vel.</div> 
+         <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio debitis incidunt eaque. Placeat delectus soluta doloribus dolor officiis asperiores? Illo voluptatem deserunt magni ducimus neque. Inventore quod praesentium vel.</div>
+    </div>
+</body>
+</html>

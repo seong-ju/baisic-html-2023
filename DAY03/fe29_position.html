@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>CSS 위치속성</title>
+    <style>
+    /* #out{
+        width:400px ;
+        height: 100 px;
+        border:3px solid black;
+        position:relative ;
+    } */
+    body >div {
+        width: 420px;
+        height: 100px;
+        border: 2px solid black;
+        position: relative;
+       
+     
+    }
+        .box {
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1){
+            background-color: red;
+            left: 10px ; top: 10px;
+            z-index: 900px;
+        }
+        .box:nth-child(2){
+            background-color:green;
+            left: 50px;top: 50px;
+        }
+        .box:nth-child(3){
+            background-color:blue;
+            left:90px; top: 90px;
+            z-index: 90px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit</h1>
+    <div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+<h1>Lorem ipsum dolor sit</h1>
+</body>
+</html>
