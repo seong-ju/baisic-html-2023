@@ -23,5 +23,6 @@ JAVA 개발자 과정 프론트앤드 리포지토리
     -반응형 웹
 
 3일차 레이아웃
-<img src ="https://raw.githubusercontent.com/seong-ju/basic-html-2023/main/DAY03/Image/layout.png" width ="300">
+
+<img src ="https://github.com/seong-ju/basic-html-2023/blob/main/DAY03/image/layout.png?raw=true" width ="300">
 
