@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $('#box').css({
+            width :'100px' ,
+            height:'100px',
+            'background-color' : 'orange'
+          }).on('click',function(){
+            $(this).css( 'background-color' , 'skyblue');
+          }).on('mouseenter',function() {
+            $(this).css('background-color','beige');
+          }).on('mouseenter',function() {
+            $(this).css('background-color','green');
+        });
+        $('h1').hover(function() {
+            $(this).css({ 'background-color':'pink',
+                            'color':'black'});
+        }, function() {
+            $(this).css({ 'background-color':'',
+                            'color':''
+                        });
+        });
+   
+    $('a').click(function(){
+        alert('이동합니다');
+        
+        e.preventDefault();
+    })
+    $('#btnToggle').click(function(){
+        $('.page').fadeToggle(1000);
+    });
+    $('#anim').click(function(e){
+        $('#box').animate({
+            width: '300px',
+            opacity :0.2,
+        },1000);
+    }).dblclick(function (e) {
+        $('#box').animate({
+            width: '100px',
+            opacity: 1.0 ,
+        }, 1000);
+    });
+});
+    </script>
+</head>
+<body>
+    <div id ="box"></div>
+    <br>
+    <h1>CLICK</h1>
+    <br>
+    <a href ="https://www.google.com" target ="_blank">google</a>
+    <button id ="anim">애니메이션</button>
+    <input type="button"value ="show"id="btnToggle">
+    <div class ="page">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eum aspernatur quisquam sunt vel. Aperiam et reprehenderit libero? Accusantium, quisquam quo! Porro rem ipsam, quam labore sequi cumque minima!</p>
+    </div>
+</body>
+</html>

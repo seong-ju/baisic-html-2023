@@ -5,39 +5,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>포토갤러리</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--외부스타일 지정-->
+    <link rel ='stylesheet' type ='text/css' media='screen' href='gallery.css'>
     <script src='main.js'></script>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        body{
-            background-color: rgb(216, 228, 251);
-            font-size: 15px;
-        }
-        #wrap{
-            display: grid;
-            grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-            row-gap: 10px;
-            column-gap: 10px;
-        }
-        .card{
-            background-color: rgb(185, 221, 185);
-            box-shadow: 0px 1px 5px #cccbcc;
-            border-radius: 10px;
-        }
-        .card >.header{
-            font-size: 16px;
-            padding:  1px 10px;
-        }
-        .card > p {
-            padding: 10px ;
-            text-align: justify;
-        }
-        .card img{
-            max-width: 100%;
-           padding: 0 20%;
-        }
-    </style>
+    
 </head>
 <body>
     <div id="wrap">
