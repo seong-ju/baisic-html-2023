@@ -23,6 +23,17 @@ JAVA 개발자 과정 프론트앤드 리포지토리
     -반응형 웹
 
 3일차 레이아웃
+<img src ="https://github.com/seong-ju/basic-html-2023/blob/main/DAY03/image/layout.png" width ="600">
 
-<img src ="https://github.com/seong-ju/basic-html-2023/blob/main/DAY03/image/layout.png?raw=true" width ="300">
+## 4일차
+-프론트앤드 학습
+    -GRID 레이아웃
+    -반응형 웹
+    -javascript 기초
+
+## 5일차
+-프론트앤드 학습   
+    -bootstrap 학습
+    -포트폴리오 웹사이트 만들기
+
 
