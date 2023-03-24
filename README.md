@@ -30,7 +30,7 @@ JAVA 개발자 과정 프론트앤드 리포지토리
     -GRID 레이아웃
     -반응형 웹
     -javascript 기초
-
+<img src ="https://github.com/seong-ju/basic-html-2023/blob/main/DAY04/%EA%B0%A4%EB%9F%AC%EB%A6%AC02.png?raw=true" width="300">
 ## 5일차
 -프론트앤드 학습   
     -bootstrap 학습
