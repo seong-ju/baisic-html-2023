@@ -44,5 +44,5 @@ JAVA 개발자 과정 프론트앤드 리포지토리
 -프론트앤드 학습
 -bootstrap 학습
 -포트폴리오 웹사이트 만들기
-
+<img src = "https://github.com/seong-ju/basic-html-2023/blob/main/DAY06/album_theme.png?raw=true" width = "700">
 
