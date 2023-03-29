@@ -42,7 +42,14 @@ JAVA 개발자 과정 프론트앤드 리포지토리
 
 ## 6일차
 -프론트앤드 학습
--bootstrap 학습
--포트폴리오 웹사이트 만들기
+-bootstrap Album example 마무리
+-핀터레스트 스타일 웹페이지 클로닝
+
+6일차 BootStarap 앨범 클로닝 
+
 <img src = "https://github.com/seong-ju/basic-html-2023/blob/main/DAY06/album_theme.png?raw=true" width = "700">
+
+## 7일차
+-프론트앤드 학습
+    
 
