@@ -51,5 +51,5 @@ JAVA 개발자 과정 프론트앤드 리포지토리
 
 ## 7일차
 -프론트앤드 학습
-    
+   <img src = "https://github.com/seong-ju/basic-html-2023/blob/main/DAY07/images/portfolio1.png?raw=true" width = "700">
 
