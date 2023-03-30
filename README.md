@@ -74,6 +74,5 @@ parallax Scrolling Web
 -프론트앤드 학습
      -single page Template
      -SB Admin Page
--grayscale  single page templet
 
-<img src ="https://github.com/seong-ju/basic-html-2023/blob/main/DAY08/images/portfolio3.gif?raw=true" width="700">
+
