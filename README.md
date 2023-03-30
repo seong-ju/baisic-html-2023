@@ -74,3 +74,5 @@ parallax Scrolling Web
 -프론트앤드 학습
      -single page Template
      -SB Admin Page
+-grayscale  single page templet
+
